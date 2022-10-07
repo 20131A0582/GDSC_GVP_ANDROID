@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>BootStrap</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Learning Android</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Instructors</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="bg-dark text-light p-5 mt-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Welcome to <span class="text-warning">Android Compose Camp</span>!!</h1>
+                    <p class="lead my-4">
+                        In this Android Compose Camp you are going to learn <b>BASICS OF KOTLIN</b> and also during the course you will be making few basic apps along with learning various layouts and their application in the app. <br><br>Hope you all join with us in this beautiful journey of learning and sharing knowledge.
+                    </p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEdo3S-sfdLxzSMoD0O9bfUmNwazPVbKPb0xDopddrS6aU2Q/viewform" class="btn btn-danger" target="_blank">Register</a>
+                </div>
+                <img class="rounded-circle d-sm-block" src="stu_lap.jpg" alt="working photo" width="380px"
+                    height="300px">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-primary text-light p-4">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h4 class="mb-3 mb-md-0">Sign up for Our Newsletter</h4>
+
+                <div class="input-group news-input">
+                    <input type="text" class="form-control"
+                    placeholder="Enter email (xyz@gmail.com)" id="newsletter">
+                    <button class="btn btn-danger" type="button" onclick="document.getElementById('newsletter').value = ''">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="p-5 mt-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-5">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-sm-5">Learning Kotlin Basics</h3>
+                            <p>It consists of 4 units in which each unit has around 4-6 activities which you need to complete in order to answer the quiz at the end of the pathway</p>
+                            <a href="https://play.kotlinlang.org/byExample/01_introduction/01_Hello%20world" class="btn btn-danger" target="_blank">Course Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md"><div class="card bg-secondary text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-5">
+                            <i class="bi bi-person-square"></i>
+                        </div>
+                        <h3 class="card-title mb-5">Beginner</h3>
+                        <p>It consists of 4 units in which each unit has around 4-6 activities which you need to complete in order to answer the quiz at the end of the pathway</p>
+                        <a href="https://g.co/android/basics-compose" class="btn btn-danger" target="_blank">Course Link</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md"><div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-5">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h3 class="card-title mb-5">Intermediate</h3>
+                        <p>It consists of 4 units in which each unit has around 4-6 activities which you need to complete in order to answer the quiz at the end of the pathway</p>
+                        <a href="https://developer.android.com/courses/pathways/compose" class="btn btn-danger" target="_blank">Course Link</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="p-5" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="Android.png" class="img-fluid" alt="composecamp">
+                </div>
+                <div class="col-md p-5">
+                    <h2>What is Compose Camp ?</h2>
+                    <p class="lead">Community-organized events focused around how to build Android apps using Jetpack Compose, where attendees get hands-on coding experience with Compose.</p>
+                    
+                    <a href="https://developer.android.com/compose-camp" target="_blank" class="btn btn-light mt-3">
+                       <i class="bi bi-chevron-right"></i>Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2 class="mb-5">Benefits of using Jetpack Compose</h2>
+                    <p class="lead">
+                        <b>1.</b> Do more with less code and avoid entire classes of bugs. Code is simpler and easier to maintain </p>
+
+                        <p class="lead"><b>2.</b> Just describe your UI, and Compose takes care of the rest. As app state changes, your UI automatically updates.</p>
+                        <p class="lead"><b>3.</b> Compatible with all your existing code so you can adopt when and where you want. Iterate fast with live previews and full Android Studio support.</p>
+                                           
+                        <p class="lead"><b>4.</b> Create beautiful apps with direct access to the Android platform APIs and built-in support for Material Design, Dark theme, animations, and more.</p>
+                    
+                    <a href="https://developer.android.com/jetpack/compose/why-adopt" target="_blank" class="btn btn-light mt-3">
+                       <i class="bi bi-chevron-right"></i>Read More
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="Android.png" class="img-fluid" alt="composecamp">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+
+            <!-- Item 1 -->
+            <div class="accordion accordion-flush" id="questions">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+                      How much time will it take to complete the course ?
+                    </button>
+                  </h2>
+                  <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        It would take around 6-7 hours for beginners stage and 9-10 hours for the intermediate stage.These are totally dependent on one's own interest too. If he/she finds it interesting and are good at it , they can go at faster level.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+                      Is the course understandable and easy to follow ?
+                    </button>
+                  </h2>
+                  <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        Yes <b>OF COURSE</b> , the course has simple english and grammar and for the added benefit for the learners , the course is also available in pre-recorded video format. The learner can decide which to follow either documentation or pre-recorded video.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+                     By what time period do we need to complete the course ?
+                    </button>
+                  </h2>
+                  <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        You can complete the course in your own time period. There is no fixed time period for completing the course. But it is therefore suggested not to prolong it for more duration because this will lead to inconsistency and loss of interest.
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="instructors" class="p-5 bg-secondary">
+        <div class="container">
+            <h3 class="text-center text-white"><b>Our Instructors</b></h3>
+            <p class="text-center text-white lead mb-3">
+                Our instructors are very well knowledged and can be of very great use to the community.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://www.menspharmacy.co.uk/static/version1664527637/frontend/menspharmacy/default/en_GB/Magento_Theme/images/homepage_banner_m.jpg" class="rounded-circle mb-3" alt="men" width="100px" height="100px">
+                            <h4 class="card-title mb-3">John Doe</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae laboriosam accusamus provident sit eum!</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="rounded-circle mb-3" alt="men" width="100px" height="100px">
+                            <h4 class="card-title mb-3">Jas hir</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae laboriosam accusamus provident sit eum!</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?w=2000" class="rounded-circle mb-3" alt="men" width="120px" height="100px">
+                            <h4 class="card-title mb-3">Jona Doed</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae laboriosam accusamus provident sit eum!</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://www.menspharmacy.co.uk/static/version1664527637/frontend/menspharmacy/default/en_GB/Magento_Theme/images/homepage_banner_m.jpg" class="rounded-circle mb-3" alt="men" width="100px" height="100px">
+                            <h4 class="card-title mb-3">Johny Done</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae laboriosam accusamus provident sit eum!</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location : </span>
+                            GAYATRI VIDYA PARISHAD COLLEGE OF ENGINEERING
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone : </span>
+                            +91-9989123172
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email : </span>
+                            20131a0582@gvpce.ac.in
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Branch : </span>
+                            COMPUTER SCIENCE AND ENGINEERING
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div class="mx-5 align-items-center">
+                    <img src="android logo.webp" class="" alt="logo" width="300px" height="330px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="p-2 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; AndroidComposeCamp 2022</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-2">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
